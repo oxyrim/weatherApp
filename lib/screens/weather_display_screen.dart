@@ -141,7 +141,7 @@ class _WeatherDisplayState extends State<WeatherDisplay> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       //fontFamily: 'Pacifico',
-                      fontSize: 30.0,
+                      fontSize: 60.0,
                     ),
                   ),
                 ),
