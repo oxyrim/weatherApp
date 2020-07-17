@@ -29,7 +29,7 @@ class _SearchLocationState extends State<SearchLocation> {
                   },
                   child: Icon(
                     Icons.arrow_back_ios,
-                    size: 50.0,
+                    size: 60.0,
                   ),
                 ),
               ),
