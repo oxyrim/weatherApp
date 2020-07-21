@@ -50,7 +50,9 @@ class WeatherModel {
       return 'It\'s time for \n🏊 in';
     } else if (temperature > 20) {
       return 'Nice Weather \n😎 in';
-    } else if (temperature < 10) {
+    } else if(temperature > 10){
+      return('Moderate Weather');
+    }else if (temperature < 10) {
       return 'You\'ll need \n🧦 and 🧤 in';
     } else {
       return 'wear 🧥';
