@@ -53,7 +53,7 @@ class WeatherModel {
     } else if (temperature < 10) {
       return 'You\'ll need \n🧦 and 🧤 in';
     } else {
-      return 'wear 🧥';
+      return 'wear 🧥';         //if the temperature is between 10 - 20
     }
   }
 }
