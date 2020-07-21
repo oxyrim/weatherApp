@@ -46,7 +46,7 @@ class WeatherModel {
   }
 
   String getMessage(int temperature) {
-    if (temperature > 20) {
+    if (temperature > 25) {
       return 'It\'s time for \n🏊 in';
     } else if (temperature > 20) {
       return 'Nice Weather \n😎 in';
